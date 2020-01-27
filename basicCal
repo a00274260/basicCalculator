@@ -1,0 +1,37 @@
+
+public class BasicCalculator {
+	
+	
+	public static int add3Ints(int number1, int number2, int number3) {
+		
+		int tempN1 = 0;
+		int tempN2 = 0;
+		int tempN3 = 0;
+		int result = 0;
+		
+		tempN1 = number1;
+		tempN2 = number2;
+		tempN3 = number3;
+		
+		result = tempN1 + tempN2 + tempN3;
+		
+		return result;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int num1 = 1;
+		int num2 = 2;
+		int num3 = 3;
+		int sumOf3Ints = 0;
+		
+		sumOf3Ints = add3Ints(num1, num2, num3);
+		
+		
+	}
+
+}
+
