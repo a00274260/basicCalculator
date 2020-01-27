@@ -55,8 +55,7 @@ public class BasicCalculator {
 		sumOf3Ints = add3Ints(num1, num2, num3);
 		subtractionOf3Ints = subtract3Ints(num1, num2, num3);
 		multiplicationOf3Ints = multiply3Ints(num1, num2, num3);
-		divisionOf3Ints = divide3Ints(num1, num2, num3)
-		
+		divisionOf3Ints = divide3Ints(num1, num2, num3);
 		
 	}
 
